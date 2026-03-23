@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Greeting App"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a language"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingBottom="16dp" />
+
+
+
+        <Button
+            android:id="@+id/btnEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English" />
+
+        <Button
+            android:id="@+id/btnZulu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zulu" />
+
+        <Button
+            android:id="@+id/btnAfrikaans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afrikaans" />
+
+        <Button
+            android:id="@+id/btnFrench"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="French" />
+
+        <Button
+            android:id="@+id/btnSpanish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spanish" />
+
+        <Button
+            android:id="@+id/btnGerman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="German" />
+
+        <Button
+            android:id="@+id/btnChinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chinese" />
+
+        <Button
+            android:id="@+id/btnArabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arabic" />
+
+    </LinearLayout>
+
+</ScrollView>
