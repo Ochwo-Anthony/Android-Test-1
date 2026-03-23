@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView)
 
         // Buttons
-        val btnEnglish = findViewById<Button>(R.id.btnEnglish)
+        val btnEnglish = findViewById<Button>(R.id.)
         val btnZulu = findViewById<Button>(R.id.btnZulu)
         val btnAfrikaans = findViewById<Button>(R.id.btnAfrikaans)
         val btnFrench = findViewById<Button>(R.id.btnFrench)
